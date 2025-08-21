@@ -1,0 +1,70 @@
+各特徵的意義統整
+(1) 人口學與臨床基本資料
+
+age：年齡
+
+sex：性別
+
+BH, BW, BMI：身高、體重、身體質量指數
+
+SBP, DBP：收縮壓、舒張壓
+
+edu_year：受教育年數
+
+Drug：用藥 (0=Efexor, 1=Prozac)
+
+(2) 生化檢驗
+
+ACsugar：空腹血糖
+
+Insulin：胰島素
+
+HbA1c：糖化血色素
+
+Cpeptide：C-胜肽
+
+HOMAIR, HOMAb：胰島素阻抗與 β 細胞功能指標
+
+d1_corti：Cortisol (皮質醇)
+
+leptin_3：瘦體素
+
+Chol, TG, HDL, LDL, LDL/HDL：血脂相關指標
+
+oxytocin：催產素
+
+hsCRP：高敏感 C 反應蛋白
+
+(3) 臨床憂鬱嚴重度
+
+HAMD_V1：基準時 HDRS 分數
+
+HAMD_V4：第 6 週 HDRS 分數
+
+(4) 心理社會問卷
+
+WHOQoL28：生活品質 (overall, physical, psychological, social, environment, satisfaction)
+
+SSS：社會支持 (perceived crisis, received crisis, perceived routine, received routine, sum)
+
+les_e_s：生活事件壓力分數
+
+mdq_s1to13：躁症相關問卷總分
+
+(5) 認知功能
+
+ftt_r, ftt_l：手指敲擊測驗 (右/左手)
+
+pers_err, cacmplt：WCST (持續性錯誤、完成類別)
+
+d_a, d_b：CPT (未遮罩/遮罩情境)
+
+(6) 基因 (SNPs)
+
+BDNF, GNB3, HTR2A, HTR1A, IL1B, TPH1, SLC6A4, OXTR：相關單核苷酸多型性，已重新編碼為 0/1/2
+
+(7) Outcome
+
+remissionv41_LOCF：是否達到緩解 (HDRS < 8，1=緩解, 0=未緩解)
+
+responderv41_LOCF：反應者 (症狀改善 ≥50%)
